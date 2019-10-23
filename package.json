@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "anteros-react-core": "^1.0.7",
+    "anteros-react-theme": "^1.0.6",
     "classnames": "^2.2.6",
+    "deepmerge": "^4.2.1",
+    "exenv": "^1.2.2",
+    "is-lite": "^0.6.0",
+    "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",

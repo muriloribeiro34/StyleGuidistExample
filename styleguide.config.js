@@ -1,19 +1,19 @@
 const path = require('path');
 
 module.exports = {
-    pagePerSection: true,
-    sections: [
-        {
-            name: 'Documentação',
-            sections: [
-                {
-                name: 'AnterosCalendar',
-                components:'./src/components/*.jsx',
-                exampleMode: 'collapse',
-                usageMode:'collapse'
-                }
-            ]
-        }],
+    // pagePerSection: true,
+    // sections: [
+    //     {
+    //         name: 'Documentação',
+    //         sections: [
+    //             {
+    //             name: 'AnterosCalendar',
+    //             components:'./src/components/*.jsx',
+    //             exampleMode: 'collapse',
+    //             usageMode:'collapse'
+    //             }
+    //         ]
+    //     }],
     theme:{
         color:{
             link:'white',

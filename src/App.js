@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AnterosButton from '../src/components/AnterosButton'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{flex:1,alignItems:'center', justifyContent: 'center'}}>
+      <AnterosButton
+      style={{width:120,height:40,margin:20}}
+      oval={true} warning={true}>
+        <p>Olá, tudo bem?</p>
+      </AnterosButton>
+      
     </div>
   );
 }
